@@ -1,0 +1,25 @@
+body {
+    background-color: #80bfff;
+}
+
+.container {
+    
+    
+    height: 300px;
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding-top: 10px;
+    background-color: white;
+}
+
+#whatever {
+    padding-top: 100px;
+    height: 100px;
+    text-align: center;
+    
+}
+
+.click_me  button {
+     margin: 0 auto;
+}
