@@ -10,16 +10,16 @@ $(document).ready (function() {
                 while (x === temp) {
                         x = Math.floor(Math.random() * 3);
                     }
-                        
-                $("#quote").text(r[x]);
+                    var output = r[x];
+                        output += "<br><br><a href='http://twitter.com/home/?status=" + r[x] + "' target=;_blank'><i class= 'fa fa-twitter fa-3x'></i></a>"                        
+                $("#quote").html(output);
+                
                 temp = x;
          
         });
     
     
 }); //end ready
-
-
 
 
 
