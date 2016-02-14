@@ -1,5 +1,5 @@
 $(document).ready (function() {
-    var r = ["You have to learn the rules of the game. And then you have to play better than anyone else", "Look deep into nature, and then you will understand everything better.Albert Einstein", "Try not to become a man of success, but rather try to become a man of value."];
+    var r = ["You have to learn the rules of the game. And then you have to play better than anyone else", "Look deep into nature, and then you will understand everything better.", "Try not to become a man of success, but rather try to become a man of value."];
     var temp = -1;
     
    
